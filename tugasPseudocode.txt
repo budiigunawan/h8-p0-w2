@@ -1,0 +1,82 @@
+Pseudocode Challenge
+
+1. NEWTON SECOND LAW
+
+Algoritma:
+    1. Tentukan nilai M dengan 600
+    2. Tentukan nilai A dengan 2
+    3. Membuat variabel "gaya" yang masih kosong
+    4. Masukkan nilai variabel "gaya" dengan hasil perkalian M dengan A
+    5. Tampilkan nilai gaya
+
+
+Pseudocode:
+
+    SET "M" TO 600
+    SET "A" TO 2
+    SET "gaya" without any value
+
+    CALCULATE "M" times "A"
+    SET "gaya" TO calculation result
+
+    DISPLAY "gaya"
+
+
+2. TAHUN KABISAT
+
+Algoritma:
+    1. Tentukan tahun dengan nilai 100 hingga 2020
+    2. Jika tahun habis dibagi 4 dan tidak habis dibagi 100 tampilkan kabisat
+    3. Jika tahun habis dibagi 4, habis dibagi 100, dan habis dibagi 400 tampilkan kabisat
+    4. Jika tidak memenuhi ketentuan diatas tampilkan bukan kabisat
+
+
+Pseudocode:
+
+    SET "tahun" to any value from 100 to 2020
+
+    IF "tahun" mod 4 IS 0 AND "tahun" mod 100 IS NOT 0 THEN
+        DISPLAY "kabisat"
+    ELSE IF "tahun" mod 4 IS 0 AND "tahun" mod 100 IS 0 AND "tahun" mod 400 IS 0 THEN
+        DISPLAY "kabisat"
+    ELSE
+        DISPLAY "bukan kabisat"
+    ENDIF
+
+
+3. Laundry Day
+
+Algoritma:
+    1. Awalnya tidak ada baju yang masuk ke mesin cuci
+    2. Masukkan baju satu persatu ke mesin cuci, tampilkan jumlah baju yang sudah masuk ke mesin cuci
+    3. Nyalakan mesin cuci ketika baju sudah berjumlah 20
+
+Pseudocode:
+
+    SET "bajuMasukMesin" to 1
+
+    WHILE  "bajuMasukMesin" < 21
+        DISPLAY "jumlahBaju"
+        ADD "jumlahBaju" by 1
+    ENDWHILE
+
+    DO "mesinOn"
+
+
+4. Periksa Kuku
+
+Algoritma:
+    1. Guru memeriksa 40 murid secara satu persatu
+    2. Jika kukunya panjang berikan hukuman
+    3. Jika kukunya tidak panjang berikan pujian
+
+Pseudocode:
+    FOR "murid" = 1 to 40
+        IF "kuku" IS Panjang
+            DO "hukuman"
+        ELSE
+            DO "pujian"
+        ENDIF
+    ENDFOR
+        
+
