@@ -1,6 +1,6 @@
 //input tanggal, bulan, dan tahun
 var tanggal = 17; // assign variabel tanggal dengan angka antara 1 - 31
-var bulan = 8; // assign variabel bulan dengan angka antara 1 - 12
+var bulan = 13; // assign variabel bulan dengan angka antara 1 - 12
 var tahun = 1945; // assign nilai variabel tahun dengan angka antara 1900 - 2200)
 
 //merubah bulan yang semula angka menjadi nama bulan dengan menggunakan switch-case
@@ -40,6 +40,9 @@ switch (bulan) {
         break;
     case 12 :
         bulan = 'Desember';
+        break;
+    default:
+        console.log('Periksa kembali input bulan Anda');
         break;
 }
 
