@@ -2,12 +2,8 @@
 var nama = 'Budi';
 var peran = 'Penyihir';
 
-//jika nama kosong
-if (nama === '') {
-    console.log('Nama harus diisi!');
-}
 //jika nama ada dan peran kosong
-else if (nama !== '' && peran === '') {
+if (nama !== '' && peran === '') {
     console.log(`Halo ${nama}, Pilih peranmu untuk memulai game!`);
 }
 //jika nama dan peran ada
@@ -25,4 +21,12 @@ else if (nama && peran) {
     else if (peran == 'Penyihir') {
         console.log(`Halo Penyihir ${nama}, ciptakan keajaiban yang membantu kemenanganmu!`);
     }
+    //jiks peran yang diinputkan bukan Ksatria, Tabib, atau Penyihir
+    else {
+        console.log('Mohon input peran dengan Ksatria, Tabib, atau Penyihir');
+    }
+}
+//jika nama kosong
+else {
+    console.log('Nama harus diisi!');
 }
