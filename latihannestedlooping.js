@@ -5,6 +5,7 @@ for (var i = 0; i < 4; i++) {
     }
     console.log(temp);
 }
+//tes
 
 for (var i = 3; i > 0; i--) {
     var temp2 = '';
